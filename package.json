@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
+    "build-tsc": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
     "format": "prettier --write ./src",
     "lint": "eslint ./src --ext .vue,.js,.ts",
